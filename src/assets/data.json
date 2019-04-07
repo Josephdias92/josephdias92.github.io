@@ -1,0 +1,74 @@
+{
+  "experience": {
+    "cardTitle": "Work Experience",
+    "cardIcon": "card_travel",
+    "data": [{
+      "companyName": "Persistent System limited",
+      "companyUrl": "https://www.persistent.com/",
+      "position": "Lead Project Engineer",
+      "term": "April 2019 - Present",
+      "responsibilities": [
+        "Contribute to interviews, peer reviews etc.",
+        "Take ownership of project deliverables",
+        "Provide assistance, guidance and support to other developers when necessary. Review codes of peers"
+      ]
+    }, {
+      "companyName": "Persistent System limited",
+      "companyUrl": "https://www.persistent.com/",
+      "position": "Sr. Frontend Developer",
+      "term": "July 2017 - April 2019",
+      "responsibilities": [
+      ]
+    }, {
+      "companyName": "Srijan technologies",
+      "companyUrl": "https://www.srijan.net/",
+      "position": "JavaScript Developer",
+      "term": "Feb 2016 - June 2017",
+      "responsibilities": [
+        "Understand client’s business needs and develop a software solution with necessary validations",
+        "Drive community technology consciousness/awareness by code sprints, sessions, demos, blogs, presentations etc",
+        "Contribute to interviews, peer reviews etc.",
+        "Take complete ownership for the quality of code",
+        "Provide assistance, guidance and support to other developers when necessary. Review codes of peers",
+        "Actively participate in tech discussions, estimations and also support the Tech Lead in technical/architectural decisions"
+      ]
+    }, {
+      "companyName": "Garud technologies",
+      "companyUrl": "https://www.srijan.net/",
+      "position": "FullStack Developer",
+      "term": "July 2015 - Jan 2016",
+      "responsibilities": [
+        "Creating angular project structure",
+        "Creating WebAPI in C# MVC",
+        "Guiding the team to achieve goals",
+        "Following best practices",
+        "Deploying Angular application",
+        "Worked with Ionic framework(hybrid Application)"
+      ]
+    }]
+  },
+  "education": {
+    "cardTitle": "Education",
+    "cardIcon": "equalizer",
+    "data": [{
+      "instituteName": "Goa University",
+      "instituteUrl": "https://www.unigoa.ac.in/",
+      "courseName": "Masters in Computer Application",
+      "term": "May 2012 - June 2015"
+    }, {
+      "instituteName": "Rosary College Navelim",
+      "instituteUrl": "http://rosarycollege.org/",
+      "courseName": "Bachelors in Computer Application",
+      "term": "July 2009 - April 2012"
+    }]
+  },
+  "hobbies": {
+    "cardTitle": "Hobbies",
+    "cardIcon": "favorite",
+    "data": [{"icon": "code", "title": "Coding"},
+      {"icon": "library_music", "title": "Music"},
+      {"icon": "directions_run", "title": "Gym"},
+      {"icon": "local_movies", "title": "Movies"}
+    ]
+  }
+}
