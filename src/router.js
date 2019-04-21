@@ -7,6 +7,7 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
+    { path: '/', redirect: '/resume' },
     {
       path: '/home',
       name: 'home',
@@ -21,7 +22,7 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/Contact.vue')
     },
     {
-      path: '/',
+      path: '/resume',
       name: 'resume',
       component: Resume,
     }
