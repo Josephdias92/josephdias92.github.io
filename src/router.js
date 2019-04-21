@@ -21,7 +21,7 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/Contact.vue')
     },
     {
-      path: '/resume',
+      path: '/',
       name: 'resume',
       component: Resume,
     }
