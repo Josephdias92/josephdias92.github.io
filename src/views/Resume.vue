@@ -6,8 +6,8 @@
         <span class="md-title">{{data.experience.cardTitle}}</span>
       </md-card-header>
       <md-card-content>
-        <md-list :key="index" v-for="(card, index) in data.experience.data">
-          <md-list-item>
+        <div :key="index" v-for="(card, index) in data.experience.data">
+          <div>
             <div style="company">
               <div>
                 <div class="md-subheading">
@@ -23,10 +23,9 @@
                 >{{responsibility}}</li>
               </ul>
             </div>
-          </md-list-item>
-
-          <md-divider class="md-inset"></md-divider>
-        </md-list>
+          </div>
+          <hr>
+        </div>
       </md-card-content>
     </md-card>
     <md-card>
@@ -35,8 +34,8 @@
         <span class="md-title">{{data.education.cardTitle}}</span>
       </md-card-header>
       <md-card-content>
-        <md-list :key="index" v-for="(card, index) in data.education.data">
-          <md-list-item>
+        <div :key="index" v-for="(card, index) in data.education.data">
+          <div>
             <div style="company">
               <div>
                 <div class="md-subheading">
@@ -52,10 +51,10 @@
                 >{{responsibility}}</li>
               </ul>
             </div>
-          </md-list-item>
+          </div>
 
-          <md-divider class="md-inset"></md-divider>
-        </md-list>
+          <hr/>
+        </div>
       </md-card-content>
     </md-card>
     <md-card class="hobbies">
@@ -73,6 +72,11 @@
   </div>
 </template>
 <style scoped lang="scss">
+hr {
+  border-style: unset;
+  margin: 10px 0;
+  border: 1px solid #eee;
+}
 .md-card {
   margin-bottom: 20px;
   vertical-align: top;
@@ -80,6 +84,7 @@
 .roles-and-responsibilities {
   list-style: disc;
   margin-top: 20px;
+  width: 100%;
 }
 .roles-and-responsibilities li {
   white-space: normal;

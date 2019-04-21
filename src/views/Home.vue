@@ -1,7 +1,11 @@
 <template>
   <div class="home">
-    <div class="md-layout">
-      <md-card class="md-primary md-layout-item md-xsmall-size-25" md-theme="yellow-card" md-with-hover>
+    <div class="flex-container">
+      <div>
+hello
+      </div>
+      <md-card class="md-primary quotes-card"
+        md-theme="yellow-card" md-with-hover>
         <md-ripple>
           <md-card-header>
             <div class="md-title">Favorite Quotes</div>
@@ -26,6 +30,13 @@
 
   @import "~vue-material/dist/base/theme";
   @import "~vue-material/dist/components/MdCard/theme";
+  .flex-container {
+    display: flex;
+  }
+
+  .home {
+    position: relative;
+  }
 
   .quotes-card {
     width: 320px;
