@@ -1,9 +1,6 @@
 <template>
   <div class="home">
     <div class="flex-container">
-      <div>
-hello
-      </div>
       <md-card class="md-primary quotes-card"
         md-theme="yellow-card" md-with-hover>
         <md-ripple>
