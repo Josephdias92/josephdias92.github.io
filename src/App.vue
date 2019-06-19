@@ -123,6 +123,24 @@
         <router-view/>
       </md-app-content>
     </md-app>
+    <md-speed-dial class="md-bottom-right md-fab-bottom-right md-fixed">
+      <md-speed-dial-target class="md-primary">
+        <md-icon>cloud_download</md-icon>
+        <md-tooltip md-direction="left">Download Resume</md-tooltip>
+      </md-speed-dial-target>
+
+      <md-speed-dial-content>
+        <md-button class="md-icon-button" href="https://github.com/Josephdias92/josephdias92.github.io/blob/content/JosephDiasResume.pdf?raw=true" download>
+          <md-icon>picture_as_pdf</md-icon>
+          <md-tooltip md-direction="left">Download PDF</md-tooltip>
+        </md-button>
+
+        <md-button class="md-icon-button" href="https://github.com/Josephdias92/josephdias92.github.io/blob/content/JosephDiasResume.docx?raw=true" download>
+          <md-icon>text_format</md-icon>
+          <md-tooltip md-direction="left">Download Docx</md-tooltip>
+        </md-button>
+      </md-speed-dial-content>
+    </md-speed-dial>
   </div>
 </template>
 
@@ -143,6 +161,9 @@
   li {
     white-space: normal;
   }
+}
+.md-speed-dial a {
+  text-decoration: none;
 }
 </style>
 <script>
