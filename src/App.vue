@@ -75,8 +75,8 @@
             <md-list-item class="md-inset">
               <div class="md-list-item-text">
                 <a
-                  href="mailto:joseph_dias@persistent.com?subject = Hello Joseph"
-                >joseph_dias@persistent.com</a>
+                  href="mailto:joseph.dias@credit-suisse.com?subject = Hello Joseph"
+                >joseph.dias@credit-suisse.com</a>
                 <span>Work</span>
               </div>
             </md-list-item>

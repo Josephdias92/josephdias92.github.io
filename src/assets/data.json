@@ -3,10 +3,20 @@
     "cardTitle": "Work Experience",
     "cardIcon": "card_travel",
     "data": [{
+      "companyName": "Credit Suisse",
+      "companyUrl": "https://www.credit-suisse.com/in/en.html",
+      "position": "Exempt Non Officer (Software Engineer)",
+      "term": "Oct 2019 - Present",
+      "responsibilities": [
+        "Peer reviews etc.",
+        "Take ownership of project deliverables",
+        "Provide assistance, guidance and support to other developers when necessary"
+      ]
+    }, {
       "companyName": "Persistent System limited",
       "companyUrl": "https://www.persistent.com/",
       "position": "Lead Project Engineer",
-      "term": "April 2019 - Present",
+      "term": "April 2019 - Oct 2019",
       "responsibilities": [
         "Contribute to interviews, peer reviews etc.",
         "Take ownership of project deliverables",
