@@ -8,11 +8,10 @@
       "position": "Exempt Non Officer (Software Engineer)",
       "term": "Oct 2019 - Present",
       "responsibilities": [
-        "Peer reviews etc.",
+        "Contribute to interviews, peer reviews etc.",
         "Take ownership of project deliverables",
         "Provide assistance, guidance and support to other developers when necessary",
         "Managing the product deliverables",
-        "Taking interviews",
         "Creating reusable library"
       ]
     }, {
@@ -80,7 +79,7 @@
     "cardIcon": "favorite",
     "data": [{"icon": "code", "title": "Coding"},
       {"icon": "library_music", "title": "Music"},
-      {"icon": "directions_run", "title": "Gym"},
+      {"icon": "directions_bike", "title": "Cycling"},
       {"icon": "local_movies", "title": "Movies"}
     ]
   }
