@@ -71,18 +71,14 @@
                 <span>Personal</span>
               </div>
             </md-list-item>
-
-            <md-list-item class="md-inset">
-              <div class="md-list-item-text">
-                <a
-                  href="mailto:joseph.dias@credit-suisse.com?subject = Hello Joseph"
-                >joseph.dias@credit-suisse.com</a>
-                <span>Work</span>
-              </div>
-            </md-list-item>
             <md-divider></md-divider>
             <md-subheader>Professional Skills</md-subheader>
-
+            <md-list-item class="md-inset">
+              <div class="md-list-item-text">
+                <md-progress-bar md-mode="determinate" :md-value="80"></md-progress-bar>
+                <span>Java</span>
+              </div>
+            </md-list-item>
             <md-list-item>
               <md-icon class="md-primary">calendar_today</md-icon>
 
@@ -112,7 +108,7 @@
             </md-list-item>
             <md-list-item class="md-inset">
               <div class="md-list-item-text">
-                <md-progress-bar md-mode="determinate" :md-value="80"></md-progress-bar>
+                <md-progress-bar md-mode="determinate" :md-value="90"></md-progress-bar>
                 <span>Angular</span>
               </div>
             </md-list-item>
