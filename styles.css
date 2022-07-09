@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  border: solid 1px #aaa;
+}
+
+.main {
+  padding: 1rem;
+}
