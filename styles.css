@@ -25,3 +25,18 @@ nav a {
 .main {
   padding: 1rem;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .download {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.header .download li {
+  margin-right: 4px;
+}
