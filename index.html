@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="dark">
     <div class="container">
       <div class="header">
         <h2>Joseph Dias</h2>
+        <div>
+          Dark theme
+          <label class="switch">
+            <input type="checkbox" id="dark-theme" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+
         <ul class="download">
           <li><a href="JosephDiasFullStackEngineer.pdf" download>PDF</a></li>
           <li><a href="JosephDiasFullStackEngineer.docx" download>DOCX</a></li>
@@ -157,5 +165,20 @@
       </div>
       <div class="footer"></div>
     </div>
+    <script>
+      const button = document.querySelector('#dark-theme');
+      const body = document.querySelector('body');
+      button.onclick = (e) => {
+        toggleDark(button);
+      };
+      toggleDark = (checked) => {
+        if (button.checked) {
+          body.classList.add('dark');
+        } else {
+          body.classList.remove('dark');
+        }
+      };
+      toggleDark(button);
+    </script>
   </body>
 </html>
