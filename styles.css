@@ -1,117 +1,142 @@
-* {
-  box-sizing: border-box;
-}
-
+/* General Styles */
 body {
+  font-family: sans-serif;
   margin: 0;
-  font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
 }
 
 a {
-  color: black;
-  font-weight: bold;
+  text-decoration: none;
+  color: #007bff;
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0;
+a:hover {
+  text-decoration: underline;
 }
 
-nav a {
-  display: inline-block;
-  min-width: 9rem;
-  padding: 0.2rem;
-  border-radius: 0.2rem;
-  border: solid 1px #aaa;
-}
-
+/* Container Styles */
 .container {
-  padding: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+/* Header Styles */
+header {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.header .download {
-  list-style: none;
-  padding: 0;
-  display: flex;
-}
-
-.header .download li {
-  margin-right: 4px;
-}
-
-.dark {
-  background-color: black;
-  color: white;
-}
-
-.dark a {
-  color: white;
-}
-
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 30px;
-  height: 16px;
-}
-
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: '';
-  height: 13px;
-  width: 13px;
-  left: 2px;
-  bottom: 2px;
-  background-color: white;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-input:checked + .slider {
-  background-color: #2196f3;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(13px);
-  -ms-transform: translateX(13px);
-  transform: translateX(13px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
+.profile-picture {
+  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 2px solid #ccc;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px 0 0;
+  color: #333;
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+section ul {
+  margin-left: 0;
+  padding: 0;
+  list-style: none;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+/* Contact Styles */
+.contact {
+  margin-top: 20px;
+}
+
+.contact h2 {
+  margin-top: 0;
+}
+
+/* Summary Styles */
+.summary {
+  padding-top: 20px;
+  border-top: none;
+}
+
+.summary p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Work Experience Styles */
+.work-experience h2 {
+  margin-top: 0;
+}
+
+.work-experience ul {
+  margin-left: 20px;
+}
+
+/* Education Styles */
+.education h2 {
+  margin-top: 0;
+}
+
+.education ul {
+  margin-left: 20px;
+}
+
+/* Skills Styles */
+.skills h2 {
+  margin-top: 0;
+}
+
+.skills ul {
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+/* Links Styles */
+.links h2 {
+  margin-top: 0;
+}
+
+.links ul {
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+/* Download Buttons Styles */
+.download-buttons button {
+  border: 1px solid #ccc; /* Add a thin border */
 }
